@@ -3,7 +3,7 @@ import pandas as pd
 from main import *
 
 def test_join_and_filter():
-    assert(df_boston.shape == (2, 2))
+    assert(df_boston.shape == (2, 3))
     assert(list(df_boston['firstName']) == ['Julie', 'Steve'])
     assert(df_zero_emp.shape[0] == 0)
 
